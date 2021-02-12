@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/mbn/Repos/Microservices/exchange-service/app/test/integration/controllers/ExchangeController'
+let g:netrw_dirhist_7='/Users/mbn/Repos/Microservices/exchange-service/app'
+let g:netrw_dirhist_6='/Users/mbn/Repos/Microservices/merchant/app/templates/merchant/admin/financial/exchange'
+let g:netrw_dirhist_5='/Users/mbn/Repos/Microservices/merchant/app/templates/merchant/admin/financial'
+let g:netrw_dirhist_4='/Users/mbn/Repos/Microservices/merchant/app/templates/merchant/admin'
+let g:netrw_dirhist_3='/Users/mbn/Repos/Microservices/merchant/app/templates/merchant'
+let g:netrw_dirhist_2='/Users/mbn/Repos/Microservices/merchant/app/templates'
+let g:netrw_dirhist_1='/Users/mbn/Repos/Microservices/merchant/app'
+let g:netrw_dirhist_0='/Users/mbn/Repos/Microservices/merchant'
+let g:netrw_dirhist_9='/Users/mbn/Repos/Microservices/exchange-service/app/src/infrastructure/exchanges'

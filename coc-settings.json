@@ -1,0 +1,10 @@
+{
+  "eslint.autoFixOnSave": true,
+  "snippets.userSnippetsDirectory": "~/.config/nvim/my_snippets",
+  "snippets.ultisnips.directories": [
+    "~/.config/nvim/my_snippets"
+  ],
+  "snippets.extends": {
+    "typescript": ["javascript"]
+  }
+}
