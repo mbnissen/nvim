@@ -23,12 +23,12 @@
 #		endsnippet
 #
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
-snippet dir "console dir"
-console.dir($1, { colors: true, depth: 5 });
-endsnippet
 
-snippet ita "it async" b
-it('$1', async () => {
-  $2  
+snippet mocha "Mocha Tests" b
+import 'mocha';
+import { expect } from 'chai';
+
+describe('$1', () => {
+	$2
 });
 endsnippet

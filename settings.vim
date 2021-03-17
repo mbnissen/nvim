@@ -2,6 +2,7 @@ syntax enable                           " Enables syntax highlighing
 set path+=**                            " Extend path - https://www.youtube.com/watch?v=XA2WjJbmmoM
 set wildmenu                            " Autocompletion
 set wildmode=longest:list,full          " Autocompletion extended
+set wildignore+=**/node_modules/** 
 " Settings from https://www.chrisatmachine.com/Neovim/02-vim-general-settings/ 
 set nowrap                              " Display long lines as just one line
 set number                              " Line numbers
@@ -20,3 +21,10 @@ set autoindent
 set copyindent                          " copy indent from the previous line
 set nofixeol                            " No newline at the end of file
 
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+" Disable arrow keys because old habits die hard
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
